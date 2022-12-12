@@ -6,6 +6,7 @@ public class Main {
     public String meth() {
       return "Invoking method from class A";
     }
+  }
 
     public static class B extends A{
       @Override
@@ -23,4 +24,3 @@ public class Main {
       obj1.meth();
     }
   }
-}
